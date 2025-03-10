@@ -1,7 +1,7 @@
-module github.com/andybalholm/brotli
+module github.com/Paramoshka/brotli
 
-go 1.13
+go 1.23
 
 retract v1.0.1 // occasional panics and data corruption
 
-require github.com/xyproto/randomstring v1.0.5 // indirect
+require github.com/xyproto/randomstring v1.2.0 // indirect
